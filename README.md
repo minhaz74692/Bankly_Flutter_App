@@ -1,6 +1,6 @@
-# site_galleria
+# Bankly
 
-A new Flutter project.
+A new Bank Wallet Flutter project.
 
 ## Getting Started
 
