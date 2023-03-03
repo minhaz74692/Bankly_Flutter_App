@@ -1,6 +1,6 @@
 # Bankly
 
-A new Bank Wallet Flutter project.
+Bankly a Bank Wallet Flutter project.
 
 ## Getting Started
 
