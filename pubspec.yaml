@@ -1,0 +1,45 @@
+name: site_galleria
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_icons:
+    git:
+      url: https://github.com/adarsh-technocrat/flutter-icons
+  introduction_screen: ^3.1.4
+  pin_code_fields: ^7.3.0 # for OTP input fields
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.12.0"
+
+flutter_icons: 
+  android: true
+  ios: true
+  image_path: "assets/images/applogo.png"
+  # adaptive_icon_background: '#ffffff'
+  # adaptive_icon_foregraound: 'assets/images/applogo.png'
+
+flutter:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        
+  uses-material-design: true
